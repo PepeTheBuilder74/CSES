@@ -11,7 +11,7 @@ using namespace __gnu_pbds;
 #define dbg(x...)
 #endif
 #define ff first
-#define ss second
+#define ss second.git
 #define pb push_back
 #define sz(x) ((int)(x).size())
 #define all(x) (x).begin(), (x).end()
