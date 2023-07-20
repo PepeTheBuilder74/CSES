@@ -24,7 +24,6 @@ int32_t main() {
 const int INF=1e9+5;
 void __solve_testcase(int test_case) {
     string s,t; cin>>s>>t;
-    s=s; t=t;
     int n=s.size(),m=t.size();
     vector<vector<int>>dp(n+2,vector<int>(m+2,0));
     for(int i=0;i<=n;i++) dp[i][0]=i;
